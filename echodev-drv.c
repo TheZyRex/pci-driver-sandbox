@@ -13,7 +13,7 @@
 #define VID 0x1234    // Vendor ID
 #define DID 0xbeef    // Device ID
 
-// PCI Registers Offsets
+// PCI BAR0 Offsets
 #define ID_REGISTER        0x0		// Unique ID 
 #define INV_REGISTER       0x4		// Invert Register -> value written to it, will be inverted
 #define IRQ_REGISTER       0x8		// Interrupts
